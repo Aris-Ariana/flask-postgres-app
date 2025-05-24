@@ -16,7 +16,7 @@ spec:
       containers:
       - name: postgres
         image: registry.sarvrayaneh.com/test/custom-postgres:latest
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 5432
         envFrom:
