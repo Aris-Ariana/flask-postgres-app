@@ -7,3 +7,4 @@ data:
   POSTGRES_DB: mydatabase
   POSTGRES_HOST: postgres
   POSTGRES_PORT: "5432"
+  PGDATA: "/var/lib/postgresql/data/pgdata"
